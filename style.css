@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:rgb(255,255,255);
+    background-color:#1c1c25;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #00000011 0px 0px 15px 5px;
+    width: 500px;
+    min-width: fit-content;
+    margin: 0px 10px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.5);
+    background-color:rgba(255,255,255,0.05);
+    border:0.1px solid rgba(255,255,255,0.425);
+}
+
+input {
+    font-family: IRANSans;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.res {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
